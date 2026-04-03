@@ -1,0 +1,1705 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: rgb(130, 142, 243); 
+}
+/** 
+Texte = #0A1931
+Background = #F6FAFD
+Bouton = #B3CFE5
+Hover = #4A7FA7
+Boite 1 = #1A3D63
+Boite 2 = #294C63
+Boite 3 = #78AEAD 
+**/
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: rgb(175, 180, 226);
+}
+.mini-icon img{
+    width: 50px;
+    height: 50px;
+    margin-right: 350px;
+    border-radius: 35px;
+}
+.nav-bar{
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    box-shadow: 5px 6px 6px rgb(27, 27, 27); 
+    border-radius: 30px 0px 30px 0px; 
+    padding: 10px;
+}
+.section a{
+    color: #0A1931;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none; 
+}
+.section a:hover{ 
+    width: 100%;
+    color: #0A1931; 
+    padding: 10px; 
+    background-color: rgb(175, 180, 226);
+    transition: 0.4s;
+    border-radius: 30px;
+}
+.section:hover .selection{
+    display: block; 
+    transition: 0.8s;
+}
+
+
+
+.present{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 0px 0px 150px 150px;
+    background-color: rgb(175, 180, 226);
+}
+.present .boite{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    background-color: antiquewhite; 
+    box-shadow: 5px 6px 6px black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.present .text{
+    width: 350px;
+    margin-left: 150px;
+}
+.present legend{
+    text-align: justify;
+}
+.f1{
+    width: 80px;
+    height: 65px; 
+    background-color: rgb(130, 142, 243); 
+    border-radius: 40px 0px 40px 0px;
+    box-shadow: 5px 6px 6px black;
+
+}
+.phane1{
+    margin-left: 150px;
+}
+.phane2{
+    margin-top: 20px;
+}
+.phane3{
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.phane4{
+    margin-left: 180px;
+    margin-top: -20px;
+}
+.picture{
+    margin-top: -20px;
+    margin-right: 150px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(130, 142, 243); 
+    border-radius: 200px  100px 200px  100px; 
+    box-shadow: 5px 6px 6px rgb(17, 17, 17); 
+}
+.image img{
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.state{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(130, 142, 243);
+    border-radius: 10px;
+    box-shadow: 5px 6px 6px black;
+    margin-left: 170px;
+}
+.state .boite{
+    display: inline-block;
+    width: 180px;
+    height: 120px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 3px 4px 4px black; 
+    padding: 20px;
+    margin: 20px;
+}
+.boite h3{
+    color: #0A1931;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.boite p{
+    color: #0A1931;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center; 
+}
+.state img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+/** Projets **/
+
+.projet{
+    width: 100%;
+    display: inline-block;
+}
+.titre{
+    width: 100%;
+    padding: 20px;
+}
+.titre h1{
+    color: #0A1931;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;  
+}
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding: 20px;
+
+}
+.list .block{
+    display: inline-block;
+    width: 280px;
+    height: 350px;
+    padding-bottom: 20px;
+    box-shadow: 5px 6px 6px black;
+    border-radius: 0px 0px 10px 10px; 
+}
+.block img{
+    width: 100%;
+    height: 180px;
+}
+.block .text{
+    padding: 10px; 
+    background-color: antiquewhite;
+    border-radius: 0px 0px 10px 10px; 
+}
+.block .text p{
+    display: block;
+    color: #0A1931;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 10px;
+}
+.block .text legend{
+    display: block;
+    color: #0A1931;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: justify;
+    
+}
+.block button{
+    width: 100px;
+    height: 30px;
+    color: #0A1931;
+    font-size: 12px;
+    background-color: #B3CFE5;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+
+/** Gallerie **/
+.gallerie{
+    display: flex;
+    width: 100%;
+}
+.feuille{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+.feuille .boite1{
+    display: inline-block;
+    width: 450px;
+    height: 480px; 
+    margin-right: 50px;
+    padding: 10px;
+    border: 2px solid grey ;
+    border-radius: 5px;
+    box-shadow: 5px 6px 6px black;
+    background-color: antiquewhite;
+}
+.boite1 .icon{
+    display: flex;
+}
+.boite1 legend{
+    width: 400px;
+    text-align: justify;
+} 
+.boite1 img{
+    width: 35px;
+    height: 35px; 
+    margin-right: 20px; 
+}
+.feuille .boite2{
+    display: inline-block;
+    margin-left: 130px;
+}
+.boite2 .container{
+    width: 50%;
+    display: block;
+    padding: 20px; 
+}
+.video{
+    width: 350px;
+    height: 320px;
+    margin-top: 10px; 
+    margin-left: 120px; 
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+.container .liste{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    background-color: antiquewhite; 
+    border: 3px solid grey; 
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 30px;   
+}
+.pro img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+.pro button{
+    border: none;
+}
+
+
+
+/** Footer **/
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.me{
+    display: inline-block;
+}
+.Ephra{
+    display: flex;
+    justify-content: space-around;
+}
+.me legend{
+    width: 300px;
+    color: #0A1931;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: double; 
+    padding: 20px;
+}
+.reseau{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.me img{
+    width: 40px;
+    height: 40px;  
+}
+.navigation{
+    display: inline-block;
+}
+.navigation h2{
+    color: #0A1931;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: double; 
+}
+.liste{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.liste a{
+    color: #0A1931;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: none;
+    text-decoration: none;
+    padding: 20px;
+}
+.envoi{
+    display: inline-block;
+    padding-top: 50px; 
+}
+.envoi legend{
+    width: 200px;
+}
+.title a{
+    color: #0A1931;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: none;
+    text-decoration: none;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #D4D7C4;
+}
+.block1{
+    width: 100%;
+    height: 450px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-left: 130px;
+    background-image: url("image/fond/harry.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b1{
+    display: inline-block;
+    width: 400px;
+}
+.b1 h2{
+    color: #f5f5f5;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.b1 legend{
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+.btn41{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn1 button{
+    background-color: #B9B8B6;
+    border-radius: 3rem;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+}
+.btn1 button:hover{
+    background-color: #282623;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* presentation */
+.fiche{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: space-around;
+}
+.donnée{
+    width: 250px;
+    display: inline-block;
+    
+}
+.image2{
+    width: 350px;
+    height: 355px;
+}
+.tab{
+    width: 160px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 65px;
+    justify-content: space-around;
+    background-color: #B9B8B6;
+
+}
+.tab td{
+    border-radius: 2rem;
+    border: none;
+}
+.table{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    justify-content: space-around;
+}
+td{
+    padding-right: 70px;
+    padding-left: 30PX;
+}
+
+/* appropos de moi */
+
+.block2{
+    width: 100%;
+    height: 500PX;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #898681;
+    justify-content: space-around;
+    padding: 60px;
+    
+}
+.image3{
+    width: 450px;
+    height: 470px;
+    background-image: url("image/objets/winter.jpg");
+    background-size: cover;
+    border: 1px solid white;
+    border: none;
+}
+.image4{
+    width: 180px;
+    height: 190px;
+    background-image: url("image/objets/site3.JPG");
+    background-size: cover;
+    border: 1px solid white;
+    border: none;
+    margin-left: 365px;
+    margin-top: 330px;
+}
+.appro h2{
+    color: #f5f5f5;
+    font-size: 30px;
+    font-weight: 700;
+}
+.appro legend{
+    width: 420px;
+    color: #f5f5f5;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: justify;
+}
+.block2 button{
+    background-color: #B9B8B6;
+    border-radius: 3rem;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+}
+.block2 button:hover{
+    background-color: #282623;
+}
+.b12{
+    display: flex;
+    justify-content: space-around;
+}
+.toff{
+    width: 180px;
+    height: 190px;
+    padding-right: 80px;
+    background-size: cover;
+    border: none;
+}
+
+/*  Services organisé   */
+
+.block3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+.titre h2{
+    color: #f5f5f5;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 45px;
+}
+.b31{
+    width: 250px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 8px 6px 6px #58534E;
+    margin: 15px;
+    padding: 20px;
+}
+.b31 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
+.b31 legend{
+    width: 220px;
+    color: #898681 ;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: justify;
+    padding-left: 18px;
+}
+.b31 button{
+    width: 130px;
+    background-color: #B9B8B6;
+    border-radius: 3rem;
+    border: none;
+    padding: 15px;
+    margin: 15px;    
+}
+.b31 button:hover{
+    background-color: #282623;
+}
+
+/* partie level */
+
+.level{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 45px;
+    padding: 10px;
+}
+.level .design{
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    /*border: 1px solid #f5f5f5;*/
+    border: none;
+    border-radius: 2rem;
+    background-color: #868F74;
+}
+.level .front{
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    /*border: 1px solid #f5f5f5;*/
+    border: none;
+    border-radius: 2rem;
+    background-color: #a6ac85;
+}
+.level .back{
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    /*border: 1px solid #f5f5f5;*/
+    border: none;
+    border-radius: 2rem;
+    background-color: #8496A2;
+}
+.level .manage{
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    /*border: 1px solid #f5f5f5;*/
+    border: none;
+    border-radius: 2rem;
+    background-color: #687A86;
+}
+.level h2{
+    color: #f5f5f5;
+    font-size: 45px;
+}
+
+/* Partie contact */
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.contact img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.contact a{
+    color: #f5f5f5;
+    font-size: 25px;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: #898681;
+    border: none;
+    box-shadow: 4px 6px 6px #f5f5f5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+/* Responsive */
+
+@media  screen and (max-width: 480px) {
+
+    .fiche{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .donnée{
+        width: 100px;
+        display: inline-block;
+        /*padding-left: -180px;*/
+        padding-right: 140px;
+        
+    }
+    .image2{
+        width: 220px;
+        height: 225px;
+        padding-left: 45px;
+        margin-bottom: 30px;
+    }
+    .tab{
+        width: 80px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        height: 40px;
+        justify-content: space-around;
+        background-color: #B9B8B6;
+    
+    }
+    .tab td{
+        border-radius: 2rem;
+        border: none;
+    }
+    .table{
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        height: 45px;
+        justify-content: space-around;
+    }
+    td{
+        padding-right: 40px;
+        padding-left: 15PX;
+    }
+
+
+    /* partie fiche */
+
+    .block2{
+        width: 460px;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 20px;
+
+        
+    }
+    .image3{
+        width: 225px;
+        height: 250px;
+        background-image: url("image/objets/winter.jpg");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+    }
+    .image4{
+        width: 180px;
+        height: 190px;
+        display: none;
+        background-image: url("image/objets/site3.JPG");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+    }
+    .appro h2{
+        color: #f5f5f5;
+        font-size: 25px;
+        font-weight: 700;
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    .appro legend{
+        width: 240px;
+        color: #f5f5f5;
+        font-size: 10px;
+        font-weight: 700;
+        text-align: justify;
+        padding-left: 20px;
+    }
+    .block2 button{
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 10px;
+        margin: 15px;
+        margin-left: 50px;
+    }
+    .block2 button:hover{
+        background-color: #282623;
+    }
+    .b12{
+        display: flex;
+        justify-content: space-around;
+    }
+    .toff{
+        width: 120px;
+        height: 130px;
+        padding-left: 20px;
+        padding-right: 10px;
+        background-color: none;
+        background-size: cover;
+        border: none;
+        margin-bottom: 50px;
+    }
+
+    /* partie services */
+
+    .block3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 460px;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .titre h2{
+        width: 560px;
+        color: #f5f5f5;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 85px;
+    }
+    .b31{
+        width: 260px;
+        display: inline-block;
+        background-color: #f5f5f5;
+        border-radius: 3rem;
+        border: none;
+        box-shadow: 4px 3px 3px #58534E;
+        margin-left: 40px;
+        padding: 10px;
+    }
+    .b31 img{
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+        background-size: cover;
+    }
+    .b31 legend{
+        width: 180px;
+        color: #898681 ;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: justify;
+        padding-left: 45px;
+    }
+    .b31 button{
+        width: 100px;
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 10px;
+        margin: 25px; 
+        margin-left: 45px;   
+    }
+    .b31 button:hover{
+        background-color: #282623;
+    }
+    
+
+
+/* partie niveau */
+    .level{
+        display: flex;
+        flex-wrap: wrap;
+        width: 560px;
+        justify-content: space-around;
+        margin-top: 65px;
+        padding: 10px;
+    }
+    .level .design{
+        width: 120px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #868F74;
+    }
+    .level .front{
+        width: 120px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #a6ac85;
+    }
+    .level .back{
+        width: 120px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #8496A2;
+    }
+    .level .manage{
+        width: 120px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #687A86;
+    }
+    .level h2{
+        color: #f5f5f5;
+        font-size: 18px;
+    }
+
+    /* Partie contact */
+
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 560px;
+        justify-content: space-around;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .contact img{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    .contact a{
+        color: #f5f5f5;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    footer{
+        width: 560px;
+        color: #f5f5f5;
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        background-color: #898681;
+        border: none;
+        box-shadow: 4px 6px 6px #f5f5f5;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1180px) {
+
+    .fiche{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 30px;
+        justify-content: space-around;
+    }
+    .donnée{
+        width: 130px;
+        display: inline-block;
+        padding-left: -80px;
+        padding-right: 120px;
+        
+    }
+    .image2{
+        width: 250px;
+        height: 255px;
+        margin-left: 80px;
+    }
+    .tab{
+        width: 80px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        height: 40px;
+        justify-content: space-around;
+        background-color: #B9B8B6;
+    
+    }
+    .tab td{
+        border-radius: 2rem;
+        border: none;
+    }
+    .table{
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        height: 45px;
+        justify-content: space-around;
+    }
+    td{
+        padding-right: 40px;
+        padding-left: 15PX;
+    }
+
+
+    /* partie fiche */
+
+    .block2{
+        width: 100%;
+        height: 400PX;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #898681;
+        justify-content: space-around;
+        padding: 30px;
+        
+    }
+    .image3{
+        width: 350px;
+        height: 370px;
+        background-image: url("image/objets/winter.jpg");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+    }
+    .image4{
+        width: 180px;
+        height: 190px;
+        display: none;
+        background-image: url("image/objets/site3.JPG");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+    }
+    .appro h2{
+        color: #f5f5f5;
+        font-size: 25px;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+    .appro legend{
+        width: 240px;
+        color: #f5f5f5;
+        font-size: 10px;
+        font-weight: 700;
+        text-align: justify;
+        padding-left: 20px;
+    }
+    .block2 button{
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 10px;
+        margin: 15px;
+        margin-left: 50px;
+    }
+    .block2 button:hover{
+        background-color: #282623;
+    }
+    .b12{
+        display: flex;
+        justify-content: space-around;
+    }
+    .toff{
+        width: 110px;
+        height: 120px;
+        padding-left: 20px;
+        padding-right: 10px;
+        background-size: cover;
+        border: none;
+    }
+
+    /* partie services */
+
+    .block3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .titre h2{
+        color: #f5f5f5;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .b31{
+        width: 280px;
+        display: inline-block;
+        background-color: #f5f5f5;
+        border-radius: 3rem;
+        border: none;
+        box-shadow: 8px 6px 6px #58534E;
+        margin: 25px;
+        padding: 10px;
+    }
+    .b31 img{
+        width: 180px;
+        height: 180px;
+        margin-left: 50px;
+        background-size: cover;
+    }
+    .b31 legend{
+        width: 180px;
+        color: #898681 ;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: justify;
+        padding-left: 45px;
+    }
+    .b31 button{
+        width: 130px;
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 15px;
+        margin: 25px;    
+    }
+    .b31 button:hover{
+        background-color: #282623;
+    }
+    
+
+
+/* partie niveau */
+    .level{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 45px;
+        padding: 10px;
+    }
+    .level .design{
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #868F74;
+    }
+    .level .front{
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #a6ac85;
+    }
+    .level .back{
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #8496A2;
+    }
+    .level .manage{
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #687A86;
+    }
+    .level h2{
+        color: #f5f5f5;
+        font-size: 25px;
+    }
+
+    /* Partie contact */
+
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .contact img{
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .contact a{
+        color: #f5f5f5;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+   
+    
+    
+} 
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    
+    .fiche{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+        justify-content: space-around;
+    }
+    .donnée{
+        width: 250px;
+        display: inline-block;
+        padding-right: 190px;
+        
+    }
+
+
+    /* partie fiche */
+    .block2{
+        width: 100%;
+        height: 500PX;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #898681;
+        justify-content: space-around;
+        padding: 60px;
+        
+    }
+    .image3{
+        width: 450px;
+        height: 470px;
+        background-image: url("image/objets/winter.jpg");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+    }
+    .image4{
+        width: 180px;
+        height: 190px;
+        background-image: url("image/objets/site3.JPG");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+        margin-left: 300px;
+        margin-top: 330px;
+    }
+    .appro h2{
+        color: #f5f5f5;
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 50px;
+    }
+    .appro legend{
+        width: 420px;
+        color: #f5f5f5;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: justify;
+        padding-left: 50px;
+    }
+    .block2 button{
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 15px;
+        margin: 15px;
+        margin-left: 65px;
+    }
+    .block2 button:hover{
+        background-color: #282623;
+    }
+    .b12{
+        display: flex;
+        justify-content: space-around;
+    }
+    .toff{
+        width: 180px;
+        height: 190px;
+        padding-left: 40px;
+        padding-right: 20px;
+        background-size: cover;
+        border: none;
+    }
+
+    /* partie services */
+
+    .block3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .titre h2{
+        color: #f5f5f5;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .b31{
+        width: 200px;
+        display: inline-block;
+        background-color: #f5f5f5;
+        border-radius: 3rem;
+        border: none;
+        box-shadow: 8px 6px 6px #58534E;
+        margin: 10px;
+        padding: 10px;
+    }
+    .b31 img{
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        background-size: cover;
+    }
+    .b31 legend{
+        width: 180px;
+        color: #898681 ;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: justify;
+        padding-left: 10px;
+    }
+    .b31 button{
+        width: 100px;
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 10px;
+        margin: 15px;    
+    }
+    .b31 button:hover{
+        background-color: #282623;
+    }
+    
+
+
+/* partie niveau */
+    .level{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 45px;
+        padding: 10px;
+    }
+    .level .design{
+        width: 200px;
+        height: 130px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #868F74;
+    }
+    .level .front{
+        width: 200px;
+        height: 130px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #a6ac85;
+    }
+    .level .back{
+        width: 200px;
+        height: 130px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #8496A2;
+    }
+    .level .manage{
+        width: 200px;
+        height: 130px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #687A86;
+    }
+    .level h2{
+        color: #f5f5f5;
+        font-size: 40px;
+    }
+
+    /* Partie contact */
+
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .contact img{
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .contact a{
+        color: #f5f5f5;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    
+
+
+}
+@media screen and (min-width: 1800px) {
+
+    .block1{
+        width: 100%;
+        height: 450px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        padding-left: 130px;
+        background-image: url("image/fond/harry.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .b1{
+        display: inline-block;
+        width: 400px;
+    }
+    .b1 h2{
+        color: #f5f5f5;
+        font-size: 40px;
+        font-weight: 700;
+        
+    }
+    .b1 legend{
+        color: #f5f5f5;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+        text-align: justify;
+        padding-bottom: 25px;
+    }
+    .btn41{
+        width: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn1 button{
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 15px;
+        margin: 15px;
+    }
+    .btn1 button:hover{
+        background-color: #282623;
+    }
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* presentation */
+    .fiche{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 100px;
+        justify-content: space-around;
+    }
+    .donnée{
+        width: 250px;
+        display: inline-block;
+        
+    }
+    .image2{
+        width: 350px;
+        height: 355px;
+    }
+    .tab{
+        width: 160px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        height: 65px;
+        justify-content: space-around;
+        background-color: #B9B8B6;
+    
+    }
+    .tab td{
+        border-radius: 2rem;
+        border: none;
+    }
+    .table{
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        height: 45px;
+        justify-content: space-around;
+    }
+    td{
+        padding-right: 70px;
+        padding-left: 30PX;
+    }
+    
+    /* appropos de moi */
+    
+    .block2{
+        width: 100%;
+        height: 500PX;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #898681;
+        justify-content: space-around;
+        padding: 60px;
+        
+    }
+    .image3{
+        width: 450px;
+        height: 470px;
+        background-image: url("image/objets/winter.jpg");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+    }
+    .image4{
+        width: 180px;
+        height: 190px;
+        background-image: url("image/objets/site3.JPG");
+        background-size: cover;
+        border: 1px solid white;
+        border: none;
+        margin-left: 365px;
+        margin-top: 330px;
+    }
+    .appro h2{
+        color: #f5f5f5;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .appro legend{
+        width: 420px;
+        color: #f5f5f5;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: justify;
+    }
+    .block2 button{
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 15px;
+        margin: 15px;
+    }
+    .block2 button:hover{
+        background-color: #282623;
+    }
+    .b12{
+        display: flex;
+        justify-content: space-around;
+    }
+    .toff{
+        width: 180px;
+        height: 190px;
+        padding-right: 80px;
+        background-size: cover;
+        border: none;
+    }
+    
+    /*  Services organisé   */
+    
+    .block3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    .titre h2{
+        color: #f5f5f5;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .b31{
+        width: 250px;
+        display: inline-block;
+        background-color: #f5f5f5;
+        border-radius: 3rem;
+        border: none;
+        box-shadow: 8px 6px 6px #58534E;
+        margin: 15px;
+        padding: 20px;
+    }
+    .b31 img{
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .b31 legend{
+        width: 220px;
+        color: #898681 ;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: justify;
+        padding-left: 18px;
+    }
+    .b31 button{
+        width: 130px;
+        background-color: #B9B8B6;
+        border-radius: 3rem;
+        border: none;
+        padding: 15px;
+        margin: 15px;    
+    }
+    .b31 button:hover{
+        background-color: #282623;
+    }
+    
+    /* partie level */
+    
+    .level{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 45px;
+        padding: 10px;
+    }
+    .level .design{
+        width: 220px;
+        height: 150px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #868F74;
+    }
+    .level .front{
+        width: 220px;
+        height: 150px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #a6ac85;
+    }
+    .level .back{
+        width: 220px;
+        height: 150px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #8496A2;
+    }
+    .level .manage{
+        width: 220px;
+        height: 150px;
+        text-align: center;
+        /*border: 1px solid #f5f5f5;*/
+        border: none;
+        border-radius: 2rem;
+        background-color: #687A86;
+    }
+    .level h2{
+        color: #f5f5f5;
+        font-size: 45px;
+    }
+    
+    /* Partie contact */
+    
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .contact img{
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .contact a{
+        color: #f5f5f5;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    footer{
+        width: 100%;
+        color: #f5f5f5;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        background-color: #898681;
+        border: none;
+        box-shadow: 4px 6px 6px #f5f5f5;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    
+}

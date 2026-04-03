@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ephraïme-winter Kalala portfolio -- Contact   </title>
+    <link rel="stylesheet" href="contact.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     
+    <!-- Ajoutez cette ligne dans le <head> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Initialisez EmailJS avec VOTRE Public Key -->
+    <script type="text/javascript">
+        // Remplacez "TON_PUBLIC_KEY" par votre vraie clé
+        emailjs.init('XuxquGvtZmANNr9sY'); 
+    </script> 
+
+</head>
+<body>
+
+</body>
+</html>
+
+<!-- Barre de navigation -->
+<div class="nav">
+    <div class="mini-icon">
+        <img src="image/logo/Alpha.jpeg" alt="Logo"> 
+    </div>
+    <div class="nav-bar">
+        <div class="section"> 
+            <ul><a href="index.html">Accueil</a></ul>
+        </div>
+        <div class="section"> 
+            <ul><a href="project.html">Réalisations</a></ul> 
+        </div>
+        <div class="section"> 
+            <ul><a href="portfolio.html">Portfolio</a></ul>
+        </div>
+        <div class="section"> 
+            <ul>Contact</ul>
+        </div>
+    </div>
+</div>
+
+<!-- Formulaire de contact -->
+<div class="boite" id="contact"> 
+    <div class="b1">
+        <div class="msg">Contactez-moi</div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-text">
+                    <h4>Email</h4>
+                    <p>ephraimekalala20@email.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div class="contact-text">
+                    <h4>Téléphone</h4>
+                    <p>+243 899 443 917</p> 
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                    <h4>Localisation</h4>
+                    <p>Kinshasa, République Démocratique du Congo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b2">
+        <form action="#" method="post" id="contactForm"> 
+            <div class="champ">
+                <label for="email">Votre adresse email *</label>
+                <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+            </div>
+            <div class="champ">
+                <label for="project-type">Type de projet *</label>
+                <select id="project-type" name="project-type" required>
+                    <option value="" disabled selected>Sélectionnez un type</option>
+                    <option value="site-web">Site web</option>
+                    <option value="application-mobile">Application mobile</option>
+                    <option value="application-desktop">Application desktop</option>
+                    <option value="multiplateforme">Multiplateformes</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </div>
+            <div class="champ">
+                <label for="message">Décrivez votre projet *</label>
+                <textarea id="message" name="message" placeholder="Parlez-moi de votre projet, vos besoins, vos objectifs... N'oublier pas de vous presenter" required></textarea>
+            </div>
+            <div class="bouton"> 
+                <button type="submit" class="envoi">
+                    <span>Envoyer le message</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="me">
+        <div class="Ephra">
+            <div class="Ephr">
+                <h2>E</h2>
+            </div>
+            <div class="Eph">
+                <p>ephraime</p>
+            </div>                
+        </div>
+        <div>
+            <legend>
+                Développeur full-stack et designer UI/UX, je crée des solutions digitales sur-mesure. 
+                De l'idée à la réalisation, je conçois des sites web, des logiciels et des applications
+                mobiles qui allient performance technique, design raffiné et expérience utilisateur optimale.
+            </legend>
+        </div>
+        <div class="reseau"> 
+            <div class="count">  <a href="https://wa.me/243899443917" target="_blank" rel="noopener" class="whatsapp-link"> <img src="image/icons/whatsapp.png" alt="">   </a> </div>
+            <div class="count">  <a href="https://snapchat.com/add/ephraimekalal23"  class="contact-card snapchat-bg" target="_blank" rel="noopener"> <img src="image/icons/snapp.jpeg" alt="">   </a> </div>
+            <div class="count">  <a  href="https://twitter.com/@wint53137" class="contact-card twitter-bg" target="_blank" rel="noopener"> <img src="image/icons/twitter.jpeg"  alt="">   </a> </div>
+            <div class="count">  <a href="mailto:ephraimekalala20@gmail.com?subject=Contact%20depuis%20portfolio&body=Bonjour,%20je%20viens%20de%20voir%20votre%20portfolio..." class="contact-card gmail-bg"> <img src="image/icons/mail.png" alt="">   </a> </div> 
+        </div>
+    </div>
+    <div class="navigation">
+        <h2>
+                Navigation
+            </h2>
+            <div class="liste">
+                <div class="list1">
+                    <div class="title">
+                        <a href="index.html">  accueil  </a> <br>  
+                    </div>
+                    
+                    <a href="index.html#presentation">  Présentation  </a> <br>
+                    <a href="index.html#realisation">  réalisation  </a> <br> 
+                    <a href="index.html#mon cv">  Mon CV   </a> <br>
+                    <a href="index.html#technique">  Aperçus technique  </a> <br> 
+                    <a href="index.html#temoignage">  Temoignage  </a> <br> 
+                </div>
+                <div class="list2">
+                    <div class="title">
+                        <a href="project.html">  Realisation  </a> <br>
+                    </div>
+                    <a href="project.html#premier pas">  Premier Pas  </a>  <br>
+                    <a href="project.html#carte_p">  Carte projet  </a> <br>
+                    <a href="project.html#gallerie">  Galerie  </a> <br>
+                    <a href="project.html#info">  Plus d'info  </a> <br> 
+                </div>
+                <div class="list3">
+                    <div class="title">
+                        <a href="portfolio.html">  Portfolio  </a> <br>
+                    </div> 
+                    <a href="portfolio.html#profil">  Profil  </a> <br>
+                    <a href="portfolio.html#story">  Histoire  </a> <br>
+                    <a href="portfolio.html#parcours">  Formation et parcours  </a> <br>
+                    <a href="portfolio.htmlexperience_p">  Experience Pro  </a> <br> 
+                    <a href="portfolio.html#soft skills">  Soft Skills  </a> <br>
+                    <a href="portfolio.html#mon cv">  Mon CV  </a> <br>
+                    <a href="portfolio.html#info">  Call-to-Action  </a> <br>  
+                </div>
+                
+                <div class="list5">
+                    <div class="title">
+                        <a href="#contact">  Contact  </a> <br>
+                    </div>
+                    <a href="#contact">  Formulaire   </a> <br>
+                    <a href="#contact">   Mes Réseaux  </a> <br>
+                    <a href="#contact">  Localisation  </a> <br>
+                    <a href="#contact">  Statut  </a> <br> 
+                </div>
+        </div>
+    </div>
+    <div class="envoi">
+        <legend>
+            Intégrer la communauté DevTitans ? Envoyez votre mail ici 
+        </legend>
+        <div class="champ-form">
+            <input type="email" placeholder="Votre adresse email">
+            <button type="button">S'inscrire</button>
+        </div> 
+    </div>
+</div>
+
+
+    <script>
+        // Initialiser EMAILJS d'abord
+        (function() {
+            emailjs.init("XuxquGvtZmANNr9sY"); 
+        })();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("✅ DOM chargé"); 
+            
+            const form = document.getElementById('contactForm');
+            
+            if (!form) {
+                console.error("❌ FORMULAIRE INTROUVABLE : Aucun élément avec id='contactForm'");
+                return;
+            }
+            
+            console.log("✅ Formulaire trouvé:", form);
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                console.log("📤 Tentative d'envoi...");
+                
+                // DÉBOGAGE : Vérifier chaque élément
+                const elementsToCheck = [
+                    { id: 'email', element: document.getElementById('email') },
+                    { id: 'project-type', element: document.getElementById('project-type') },
+                    { id: 'message', element: document.getElementById('message') }
+                ];
+                
+                // Vérifier chaque élément
+                for (let item of elementsToCheck) {
+                    if (!item.element) {
+                        console.error(`❌ Élément introuvable : #${item.id}`);
+                        alert(`Erreur : Le champ "${item.id}" n'existe pas. Vérifiez votre HTML.`);
+                        return;
+                    }
+                    console.log(`✅ Élément #${item.id} trouvé:`, item.element);
+                }
+                
+                // MAINTENANT on peut récupérer les valeurs
+                const email = document.getElementById('email').value;
+                const projectType = document.getElementById('project-type').value;
+                const message = document.getElementById('message').value;
+                
+                console.log("📊 Données récupérées:", { name, email, projectType, message });
+                
+                // Validation
+                if (!email || !projectType || !message) {
+                    alert('⚠️ Veuillez remplir tous les champs obligatoires.');
+                    return;
+                }
+                
+                // Suite de votre code EmailJS...
+                const submitBtn = document.querySelector('.envoi');
+                const originalText = submitBtn.textContent;
+                
+                submitBtn.innerHTML = '📤 Envoi en cours...';
+                submitBtn.disabled = true;
+                
+                const templateParams = {
+                    from_email: email,
+                    project_type: projectType,
+                    message: message,
+                    date: new Date().toLocaleDateString('fr-FR')
+                };
+                
+                // Vérifier que EmailJS est chargé
+                if (typeof emailjs === 'undefined') {
+                    alert('❌ EmailJS n\'est pas chargé. Vérifiez le script.');
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                    return;
+                }
+                
+                // ENVOYER (remplacez avec vos IDs réels)
+                emailjs.send('service_m7kyimk', 'template_a2rgn2o', templateParams)
+                    .then(function(response) {
+                        console.log('✅ Succès:', response);
+                        alert('✅ Message envoyé ! Je vous répondrai dans les 24h.');
+                        form.reset();
+                    })
+                    .catch(function(error) {
+                        console.error('❌ Erreur EmailJS:', error);
+                        alert(`❌ Erreur: ${error.text || 'Vérifiez la console (F12)'}`);
+                    })
+                    .finally(function() {
+                        submitBtn.innerHTML = originalText;
+                        submitBtn.disabled = false;
+                    });
+            });
+            
+            console.log("✅ Événement submit attaché"); 
+        });
+    </script>
+
+ 
+
+    <script>
+        // OPTIMISATION MOBILE
+        document.addEventListener('DOMContentLoaded', function() {
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            
+            // WhatsApp : optimisation mobile
+            const whatsappLink = document.getElementById('whatsapp-link');
+            if (isMobile && whatsappLink) {
+                const phone = '243899443917'; // REMPLACEZ ICI
+                whatsappLink.href = `whatsapp://send?phone=${phone}`;
+                // Fallback si WhatsApp pas installé
+                whatsappLink.onclick = function(e) {
+                    setTimeout(function() {
+                        window.location.href = `https://wa.me/${phone}`;
+                    }, 500);
+                };
+            }
+            
+            // Snapchat : optimisation mobile
+            const snapchatLink = document.getElementById('snapchat-link');
+            if (isMobile && snapchatLink) {
+                const username = 'ephraimekalal23'; // REMPLACEZ ICI
+                snapchatLink.href = `snapchat://add/${username}`;
+                // Fallback si Snapchat pas installé
+                snapchatLink.onclick = function(e) {
+                    setTimeout(function() {
+                        window.location.href = `https://snapchat.com/add/${username}`;
+                    }, 500);
+                };
+            }
+            
+            // Twitter : ouvre l'app si installée
+            const twitterLink = document.getElementById('twitter-link');
+            if (isMobile && twitterLink) {
+                const twitterUser = '@wint53137'; // REMPLACEZ ICI
+                twitterLink.href = `twitter://user?screen_name=${twitterUser}`;
+                // Fallback
+                twitterLink.onclick = function(e) {
+                    setTimeout(function() {
+                        window.location.href = `https://twitter.com/${twitterUser}`;
+                    }, 500);
+                };
+            }
+            
+            // Gmail : ouvre l'app Gmail sur mobile
+            const gmailLink = document.getElementById('gmail-link');
+            if (isMobile && gmailLink) {
+                const email = 'ephraimekalala20@gmail.com'; // REMPLACEZ ICI
+                const subject = encodeURIComponent('Contact depuis portfolio');
+                const body = encodeURIComponent('Bonjour, je viens de voir votre portfolio...');
+                gmailLink.href = `mailto:${email}?subject=${subject}&body=${body}`; 
+            }
+        });
+        
+        // Animation au survol (pour desktop)
+        const cards = document.querySelectorAll('.contact-card'); 
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+
+</body>
+</html>
